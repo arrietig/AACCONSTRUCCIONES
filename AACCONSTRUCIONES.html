@@ -1,0 +1,114 @@
+
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAC Construcciones - Piscinas y Casa</title>
+    <!-- Google Fonts: Montserrat para títulos, Open Sans para el cuerpo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Enlace a tu archivo CSS -->
+    <link rel="stylesheet" href="AACCONSTRUCIONES.css">
+    <!-- Iconos de Font Awesome (para el ícono de WhatsApp) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo">AAC Construcciones</h1>
+            <p class="slogan">Piscinas y Casas</p>
+            <!-- Botón de Hamburguesa para móvil -->
+            <button class="menu-toggle" aria-label="Abrir menú de navegación">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#portfolio">Nuestros Trabajos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Sección principal (Hero) --> 
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <h2>Construyendo Sueños, Una Piscina, Una Casa a la Vez</h2>
+            <p>Expertos en diseño y construcción de piscinas y viviendas de alta calidad.</p>
+            <a href="#portfolio" class="btn">Ver Nuestros Trabajos</a>
+            <a href="https://wa.me/+595981269386?text=Hola,%20me%20gustaría%20saber%20más%20sobre%20sus%20servicios%20de%20construcción." class="btn whatsapp-btn" target="_blank">
+                <i class="fab fa-whatsapp"></i> Escríbenos por WhatsApp
+            </a>
+        </div>
+    </section>
+    <!-- Sección Nosotros -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h3>¿Quiénes Somos?</h3>
+            <p>En AAC Construcciones, nos dedicamos a transformar tus ideas en realidad. Con años de experiencia, ofrecemos soluciones integrales para la construcción de piscinas personalizadas y casas que se adaptan a tus necesidades y estilo de vida. Nuestro compromiso es la calidad, la eficiencia y la satisfacción del cliente.</p>
+            <p>Desde el diseño inicial hasta la entrega final, trabajamos contigo en cada paso para asegurar que el resultado supere tus expectativas.</p>
+        </div>
+    </section>
+        <!-- Sección de Trabajos (Portafolio) -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h3>Nuestros Trabajos</h3>
+            <div class="portfolio-grid">
+                <!-- Ejemplo de un proyecto de piscina -->
+                <div class="portfolio-item reveal-on-scroll">
+                    <img src="Imagenes/Piscina01.jpeg" alt="Piscina moderna con borde infinito">
+                    <h4>Piscina Moderna</h4>
+                    <p>Diseño exclusivo y acabados de lujo para un oasis perfecto en tu hogar.</p>
+                </div>
+                <!-- ... y así con todos los portfolio-item ... -->
+                <div class="portfolio-item reveal-on-scroll">
+                    <img src="Imagenes/Piscina02.jpeg" alt="Piscina familiar en jardín amplio">
+                    <h4>Piscina Familiar</h4>
+                    <p>Ideal para el entretenimiento de toda la familia</p>
+                </div>
+                <div class="portfolio-item reveal-on-scroll">
+                    <img src="Imagenes/Piscina03.jpeg" alt="Casa minimalista con amplios ventanales">
+                    <h4>Piscina con Diseño Moderno</h4>
+                    <p>Diseño arquitectónico contemporáneo</p>
+                </div>
+                <div class="portfolio-item reveal-on-scroll">
+                    <img src="Imagenes/Piscina04.jpeg" alt="Casa de campo con piscina integrada">
+                    <h4>Piscinas con cascadas</h4>
+                    <p>Relajante y elegante</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h3>Contáctanos</h3>
+            <p>¿Listo para empezar tu proyecto? Escríbenos o llámanos.</p>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> Email: info@aacconstrucciones.com</p>
+                <p><i class="fas fa-phone"></i> Teléfono: +595 981 269 386</p>
+                <a href="https://wa.me/+595981269386?text=Hola,%20me%20gustaría%20saber%20más%20sobre%20sus%20servicios%20de%20construcción." class="btn whatsapp-btn large-whatsapp-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Chatea con nosotros por WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Pie de página -->
+    <footer class="main-footer">
+        <div class="container"> 
+            <p>&copy; 2026 AAC Construcciones. Todos los derechos reservados.</p> <!-- Puedes agregar enlaces a redes sociales aquí si lo deseas -->
+        </div>
+    </footer>
+    <!-- Botón Volver Arriba -->
+    <button id="scrollToTopBtn" title="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <!-- Enlace a tu archivo JavaScript (al final del body para que cargue el HTML primero) -->
+    <script src="script.js" defer></script>
+</body>
+</html>
